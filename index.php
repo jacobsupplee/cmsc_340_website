@@ -13,13 +13,14 @@
     <ul>
         <li>
             <a href="discussion2/">
-                Discussion 2
+                Discussion 2: Display Information
+
             </a>
         </li>
 
         <li>
             <a href="discussion3/">
-                Discussion 3
+                Discussion 3: Transcript Generator
             </a>
         </li>
     </ul>
@@ -29,7 +30,7 @@
     <ul>
         <li>
             <a href="assignment1/index.php">
-                Assignment 1
+                Assignment 1: Print Information About You and Earth's Volume
             </a>
         </li>
     </ul>
