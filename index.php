@@ -12,13 +12,13 @@
 
     <ul>
         <li>
-            <a href="discussions/discussion2/">
+            <a href="discussion2/">
                 Discussion 2
             </a>
         </li>
 
         <li>
-            <a href="discussions/discussion3/">
+            <a href="discussion3/">
                 Discussion 3
             </a>
         </li>
@@ -28,7 +28,7 @@
 
     <ul>
         <li>
-            <a href="assignments/assignment1/">
+            <a href="assignment1/index.php">
                 Assignment 1
             </a>
         </li>
