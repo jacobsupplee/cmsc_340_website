@@ -1,0 +1,10 @@
+# AMPPS / Apache files
+cgi-bin/
+error/
+favicon.ico
+
+# Visual Studio files
+.vs/
+
+# VS Code files
+.vscode/
