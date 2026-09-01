@@ -35,5 +35,14 @@
         </li>
     </ul>
 
+    <ul>
+        <li>
+            <a href="assignment2/AssignmentSolution-W3-A1-JacobSupplee-ArraysOfCourseObjects.php">
+                Assignment 2: PHP Array of Objects
+            </a>
+        </li>
+    </ul>
+
+
 </body>
 </html>

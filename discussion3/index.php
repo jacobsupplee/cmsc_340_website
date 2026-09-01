@@ -49,6 +49,7 @@ class Course {
     }
 }
 
+// Duplicate array designed to hold objects
 $objectCourses = array(
     new Course("CSC 223", 4),
     new Course("CSC 222", 4),
