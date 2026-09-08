@@ -14,13 +14,18 @@
         <li>
             <a href="discussion2/">
                 Discussion 2: Display Information
-
             </a>
         </li>
 
         <li>
             <a href="discussion3/">
                 Discussion 3: Transcript Generator
+            </a>
+        </li>
+
+        <li>
+            <a href="discussion4/sqltest.php">
+                Discussion 4: PDO::FETCH_OBJ and MySQL
             </a>
         </li>
     </ul>
@@ -33,16 +38,13 @@
                 Assignment 1: Print Information About You and Earth's Volume
             </a>
         </li>
-    </ul>
 
-    <ul>
         <li>
             <a href="assignment2/AssignmentSolution-W3-A1-JacobSupplee-ArraysOfCourseObjects.php">
                 Assignment 2: PHP Array of Objects
             </a>
         </li>
     </ul>
-
 
 </body>
 </html>
