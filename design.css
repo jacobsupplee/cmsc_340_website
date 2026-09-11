@@ -1,8 +1,8 @@
 /* Page */
 body {
     font-family: "Trebuchet MS", Arial, sans-serif;
-    background-color: #f3f0ea;
-    color: #263238;
+    background-color: #f7f3f5;
+    color: #4b4b55;
     margin: 0;
     line-height: 1.6;
 }
@@ -16,12 +16,12 @@ body {
 
 /* Header */
 header {
-    background-color: #19324a;
-    color: #f8f5ef;
+    background: linear-gradient(135deg, #a9bfd8, #b9b0d8);
+    color: #fffdf9;
     padding: 45px;
-    border-radius: 18px;
+    border-radius: 22px;
     margin-bottom: 30px;
-    box-shadow: 0 8px 20px rgba(25, 50, 74, 0.18);
+    box-shadow: 0 8px 20px rgba(110, 100, 130, 0.16);
 }
 
     header h1 {
@@ -32,7 +32,7 @@ header {
     }
 
     header p {
-        color: #cbd9df;
+        color: #f8f5fa;
         font-size: 1.05em;
         margin: 0;
     }
@@ -42,18 +42,18 @@ section {
     background-color: #fffdf9;
     padding: 30px;
     margin-bottom: 25px;
-    border-radius: 18px;
-    box-shadow: 0 5px 15px rgba(38, 50, 56, 0.08);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(90, 85, 95, 0.07);
 }
 
     section h2 {
         font-family: Georgia, "Times New Roman", serif;
-        color: #19324a;
+        color: #6f6884;
         font-size: 1.7em;
         margin-top: 0;
         margin-bottom: 20px;
         padding-bottom: 10px;
-        border-bottom: 2px solid #d9e2e2;
+        border-bottom: 2px solid #e5dfe8;
     }
 
 /* Lists */
@@ -70,27 +70,54 @@ li {
 /* Links */
 a {
     display: block;
-    background-color: #f4f7f6;
-    color: #23605c;
+    background-color: #f3f0f6;
+    color: #667f7b;
     text-decoration: none;
     font-weight: bold;
     padding: 15px 18px;
-    border-radius: 10px;
-    border: 1px solid #d8e2e0;
+    border-radius: 12px;
+    border: 1px solid #e1dce5;
     transition: all 0.2s ease;
 }
 
     a:hover {
-        background-color: #e5efed;
-        color: #174945;
-        border-color: #23605c;
+        background-color: #e8e2ee;
+        color: #5d6575;
+        border-color: #cfc5d9;
         transform: translateX(5px);
+        box-shadow: 0 4px 10px rgba(100, 90, 110, 0.08);
     }
 
 /* Footer */
 footer {
     text-align: center;
-    color: #69777c;
+    color: #8a858c;
     padding: 15px;
     font-size: 0.9em;
 }
+
+/* Login Page */
+.login-box {
+    width: 85%;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 45px;
+    background-color: #fffdf9;
+    text-align: center;
+    border-radius: 22px;
+    box-shadow: 0 8px 20px rgba(90, 85, 95, 0.09);
+    border: 1px solid #eee8ef;
+}
+
+    .login-box h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        color: #6f6884;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .login-box p {
+        color: #718985;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
