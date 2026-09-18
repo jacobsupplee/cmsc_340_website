@@ -42,6 +42,12 @@
                         Discussion 5: HTTP Authentication
                     </a>
                 </li>
+
+                <li>
+                    <a href="discussion6/jsarray.php">
+                        Discussion 6: JavaScript Arrays
+                    </a>
+                </li>
             </ul>
         </section>
 
