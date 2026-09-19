@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!--
+    File Name: AssignmentSolution-W6-A1-JacobSupplee.html
+    Assignment: Week 6 Assignment 1
+    Version: 1.0
+    Author: Jacob Supplee
+-->
+
+<html>
+
+<head>
+    <title>Assignment 5: JavaScript Array of Course Objects</title>
+    <link rel="stylesheet" href="../design.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Assignment 5: JavaScript Array of Course Objects</h1>
+            <p>CMSC 340 Web Programming</p>
+        </header>
+
+        <section>
+            <h2>Course Information</h2>
+
+            <script>
+                //Defines the Course class
+                class Course {
+                    constructor(courseCode, courseTitle, creditHours) {
+                        this.courseCode = courseCode;
+                        this.courseTitle = courseTitle;
+                        this.creditHours = creditHours;
+                     }
+
+                 //Print course information
+                    printCourse() {
+                        document.write("Course Code = " + this.courseCode + "<br>");
+                        document.write("Course Title = " + this.courseTitle + "<br>");
+                        document.write("Credit Hours = " + this.creditHours + "<br><br>");
+                        }
+                }
+
+                //Create array of course objects
+                let arrayOfCourseObjects = [
+                    new Course("CSC 223", "Data Structures & Analysis Of Algorithms", 4),
+                    new Course("CSC 222", "Object-Oriented Programming", 4),
+                    new Course("MTH 264", "Calculus II", 4),
+                    new Course("MTH 288", "Discrete Mathematics", 3),
+                    new Course("MTH 263", "Calculus I", 4),
+                    new Course("CSC 205", "Computer Organization", 3),
+                    new Course("GOL 106", "Historical Geology", 4),
+                    new Course("GOL 105", "Physical Geology", 4),
+                    new Course("CMIT 265", "Fundamentals Of Networking", 3),
+                    new Course("CMSC 105", "Introduction To Problem Solving And Algorithm Design", 3),
+                    new Course("PACE 111T", "Programming & Career Exploration In Technology", 3)
+                ];
+
+                //Display number of courses
+                document.write("The number of UMGC/NOVA courses I took over the last 3 terms = " 
+                    + arrayOfCourseObjects.length + "<br><br>");
+                
+                //Display Course information
+                for (let i = 0; i < arrayOfCourseObjects.length; i++) {
+                    document.write("Course " + (i + 1) + " Information:<br>");
+                    arrayOfCourseObjects[i].printCourse();
+                }
+
+                //Check for CMSC 115
+                let cmsc115Taken = false;
+
+                for (let i = 0; i < arrayOfCourseObjects.length; i++) {
+                    if (arrayOfCourseObjects[i].courseCode === "CMSC 115") {
+                        cmsc115Taken = true;
+                    }
+                }
+
+                if (cmsc115Taken) {
+                    document.write("Yes, I have taken the CMSC 115 course.");
+                }
+                else {
+                    document.write("No, I have not taken the CMSC 115 course.");
+                }
+            </script>
+
+        </section>
+
+        <footer>
+            CMSC 340 Web Programming
+        </footer>
+
+    </div>
+
+</body>
+</html>

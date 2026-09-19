@@ -72,6 +72,13 @@
                         Assignment 4: PHP PDO MyCourses Table
                     </a>
                 </li>
+
+                <li>
+                    <a href="assignment5/AssignmentSolution-W6-A1-JacobSupplee.html">
+                    Assignment 5: JavaScript Array of Course Objects
+                </a>
+                </li>
+
             </ul>
         </section>
 
